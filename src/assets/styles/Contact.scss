@@ -1,0 +1,74 @@
+
+:root {
+  --accent-color: #5000ca; 
+  --accent-text: #050f0b;  
+}
+
+.light-theme {
+  --accent-color: #000000;  
+  --accent-text: #ffffff; 
+}
+
+.dark-theme {
+  --accent-color: #5000ca;   
+}
+
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: var(--accent-text);
+  }
+
+  button:hover {
+    background-color: var(--accent-color);
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.email-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
