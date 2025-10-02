@@ -23,11 +23,13 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">San Jose State University, CA</h4>
             <p>
             
-              Specialized in <b>Cloud Computing</b>, <b>Virtualization</b>, <b>Operating Systems</b>, and 
-              <b>Distributed Systems</b>, with hands-on experience in designing scalable cloud-native 
-              applications, managing virtualized resources, and applying distributed computing principles 
-              such as replication, fault tolerance, and concurrency to build reliable, high-performance systems.
             
+              Currently studying <b>Cloud Computing</b>, <b>Virtualization</b>, <b>Operating Systems</b>, 
+              and <b>Distributed Systems</b>, with hands-on experience in designing cloud-native applications, 
+              working with virtualized resources, and applying distributed computing concepts such as replication, 
+              fault tolerance, and concurrency to build reliable systems.
+
+
             </p>
           </VerticalTimelineElement>
 
